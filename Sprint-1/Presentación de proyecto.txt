@@ -1,0 +1,23 @@
+Presentación del proyecto:
+
+Aplicativo de ventas...
+
+descripción:
+
+...
+
+Grupo: Clean Code
+
+
+Integrantes:
+1 -
+
+2-
+
+3 - Omar Lampprea - Desarrollador: 
+    Trabajo como maquetador web, tengo experiencia implementando tecnologías como html, css, vanilla JS, bootstrap, API Rest, node, Gulp y un poco de WP y Azure.
+
+4 -
+
+5 -
+
