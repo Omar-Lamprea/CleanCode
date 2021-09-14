@@ -1,5 +1,6 @@
 # **Proyecto**
 El proyecto consiste en el diseño, analisis y creación de una aplicación que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento. Por lo tanto, la aplicacion web debera contar con los siguientes modulos:
+
 -Módulo administrador de ventas: Permite ingresar o registrar los pedidos realizados por cada uno de los clientes. De esta manera, deberá tener un identificador único de venta, almacenar el valor total de la venta y la descripción detallada de la misma y tener una fecha inicial y una fecha futura de pago. Además, deberá contar con un encargado de gestionar dicha venta (responsable).
 
 -Módulo para registrar el estado de la venta: Permite establecer los diferentes estados de la venta a lo largo del ciclo de vida de la línea de producción (creación, embalaje, despacho, ruta, ubicación, recepción).  
