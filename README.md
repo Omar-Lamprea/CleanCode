@@ -30,3 +30,11 @@ Con conocimientos en:
     - ```JavaScript```
     - ```Node```
     - ```Gulp```
+
+## Maria Camila Murillo Rosas
+- ### _Rol_
+    ```Scrum Master```
+- ### _Conocimientos_
+    - ```Python```
+    - ```Java (Nivel medio)```
+
