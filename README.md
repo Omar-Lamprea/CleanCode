@@ -17,4 +17,4 @@ Con conocimientos en:
 - ### _Conocimientos_ 
     - ```Metodología Ágil Scrum``` (Historias de usuario)
     - ```HTML, CSS```
-    - ```Framewor Laravel```
+    - ```FrameworK Laravel```
