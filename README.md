@@ -17,4 +17,5 @@ Con conocimientos en:
 - ### _Conocimientos_ 
     - ```Metodología Ágil Scrum``` (Historias de usuario)
     - ```HTML, CSS```
-    - ```FrameworK Laravel```
+    - ```Framework Laravel```
+    - ```Bases de Datos Relacionales``` (Nivel básico)
