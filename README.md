@@ -19,3 +19,14 @@ Con conocimientos en:
     - ```HTML, CSS```
     - ```Framework Laravel```
     - ```Bases de Datos Relacionales``` (Nivel básico)
+
+## Omar David Lamprea
+- ### _Rol_
+    ```Desarrollador```
+- ### _Conocimientos_
+    - ```HTML```
+    - ```CSS```
+    - ```Bootstrap```
+    - ```JavaScript```
+    - ```Node```
+    - ```Gulp```
