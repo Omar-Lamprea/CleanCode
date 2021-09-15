@@ -52,3 +52,11 @@ El proyecto consiste en el diseño, analisis y creación de una aplicación que 
     - ```Python```
     - ```Java (Nivel medio)```
 
+## Leyman Carrillo Serrano
+- ### _Rol_
+    ```Product Owner```
+- ### _Conocimientos_
+    - ```Python (Nivel Medio)```
+    - ```Java (Nivel medio)```
+    - ```Web(HTML,CSS,JJ) (Nivel Medio)```
+
