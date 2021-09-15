@@ -16,11 +16,13 @@ Este módulo hará la integración de los demás módulos del sistema para garan
 # **Integrantes Grupo CleanCode**
 
 ## Francisco Javier Rodríguez 
-Actualmente con el rol de: ```Administrador de BD```
-Con conocimientos en:
-- BD SQL Server
-- Lenguajes: C# y JavaScript
 
+- ### _Rol_
+    ```Administrador de BD```
+- ### _Conocimientos_ 
+    - ```C#``` (Nivel Intermedio)
+    - ```HTML, CSS, JavaScript``` (Nivel Básico)
+    - ```Bases de Datos Relacionales (SQL Server)``` (Nivel Avanzado)
 ## Brayan Edilberto Tapias Duque
 
 - ### _Rol_
