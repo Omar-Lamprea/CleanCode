@@ -1,0 +1,25 @@
+:root{
+    --verdeClaro: #96C93C;
+    --verdeOscuro: #78A036;
+    --azulClaro: #009ADF;
+    --azulOscuro:#005E89;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body{
+    height: 100%;
+}
+header, footer{
+    margin: 0;
+    height: 5rem;
+    background-color: var(--verdeClaro);
+}
+.content{
+    min-height: 85vh;
+}
+
+.sidebar{
+    background-color: var(--azulOscuro);
+    color: white;
+}
