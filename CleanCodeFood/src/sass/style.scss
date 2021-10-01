@@ -8,18 +8,61 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
 body{
-    height: 100%;
+    background-color: #E7E9EB;
 }
-header, footer{
-    margin: 0;
-    height: 5rem;
-    background-color: var(--verdeClaro);
-}
-.content{
-    min-height: 85vh;
+// header, footer{
+//     margin: 0;
+//     height: 5rem;
+//     background-color: #fff;
+// }
+.header{
+    // background-color: #fff;
+    background-color: #eedea3;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
 }
 
-.sidebar{
-    background-color: var(--azulOscuro);
-    color: white;
+.logo{
+    text-align: center;
+    border-radius: 0px 0px 40px 5px;
+    // background-color: #ffc8c8;
+    // background-color: #ff9595;
+    // background-color: #95bbff;
+    background-color: #7fdbb9;
 }
+.menu{
+    background-color: #efe5c0;
+    text-align: center;
+}
+
+.btn-standard{
+    border: none;
+    border-radius: .5rem;
+    width: 125px;
+    padding: .3rem 0;
+    background-color: #ff5757;
+    color: #fff;
+}
+.btn-standard:hover{
+    background-color: #fd4545;
+}
+
+.content{
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 3px 0px #bbb;
+    min-height: 70vh;
+}
+.menu{
+    margin: 1rem 0;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 4px 1px #d4c694;
+
+}
+
+// .sidebar{
+//     background-color: #fff;
+//     position: absolute;
+//     height: 100%;
+// }
