@@ -94,7 +94,22 @@ body{
 .menu li:hover{
     transform: translate(12%, 0px);
     transition: all ease .5s;
-  }
+}
+.animations-menu{
+    width: 3%;
+    transition: all ease .5s;
+}
+.animations-menu .row{
+    // transition: all ease .5s;
+    display: none;
+}
+.animations-menu img{
+    transition: all ease .5s;
+    transform: rotate(180deg);
+}
+.menu-animations-outside, .menu-animations-outside img{
+    transition: all ease .5s;
+}
 
 
 
