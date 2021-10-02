@@ -107,7 +107,11 @@ body{
     transition: all ease .5s;
     transform: rotate(180deg);
 }
-.menu-animations-outside, .menu-animations-outside img{
+.menu-animations-outside, .menu-animations-outside img, .content-animations-outside{
+    transition: all ease .5s;
+}
+.animations-content{
+    width: 92%;
     transition: all ease .5s;
 }
 
