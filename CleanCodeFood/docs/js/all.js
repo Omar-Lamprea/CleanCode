@@ -11,7 +11,7 @@ function dropMenu(){
   const btnMenu = document.getElementById('btn-drop-menu')
   const menu = document.getElementById('menu')
   const content = document.getElementById('content')
-  console.log(content);
+  // console.log(content);
 
   btnMenu.addEventListener('click', e =>{
     menu.classList.toggle('animations-menu')
