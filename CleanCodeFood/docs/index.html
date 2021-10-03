@@ -2,110 +2,70 @@
 <html lang="en">
     
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"
-        />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
         <link rel="stylesheet" href="./css/style.css" />
-        <link rel="icon" href="./img/icon.png" />
-        <title>CleanCode Food</title>
+        <style>
+            body{
+                      /* background-image: url("https://cdn.pixabay.com/photo/2019/09/24/16/05/storm-4501645_1280.jpg"); */
+                      background-image: url("./img/restaurant_640.jpg");
+                      background-repeat: no-repeat, repeat;
+                      background-position: center; /* Center the image */
+                      background-size: cover; /* Resize the background image to cover the entire container */
+                      padding-top: 50px;
+                    }
+                    .login-form{
+                      background:#1a11117a;
+                      margin-top: 100px;
+                      margin-bottom: 100px;
+                      padding: 90px;
+                      border-radius: 30px;
+                      color: white;
+                      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+                    }
+                    .login-heading{
+                      text-align: center;
+                      margin-top: 20px;
+                    }
+                    /* .container{
+                      background: #09090a4f;
+                      border-radius: 50px;
+                      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+                    } */
+                    /* .btn-primary{
+                      width: 100%;
+                    } */
+        </style>
     </head>
     
     <body>
-        <header>
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="logo col-3 d-flex flex-column justify-content-center align-items-center py-3"> <a href="/">
-
-              <img src="../img/logo2.png" alt="LOGO" width="50">
-
-              <h3 style="font-family: fangsong;">CodeClean Food</h3>
-
-            </a>
-                        </div>
-                        <div class="col-8 py-3 d-flex justify-content-between align-items-center header"
-                        style="width: 73.3%;">
-                            <img src="../img/three-stars.png" alt="stars" width="40">
-                             <h1 class="m-0">Lista de Usuarios</h1> 
-                            <div class="user">
-                                <img src="../img/profile-user.png" alt="User" width="40">
-                            </div>
-                            <!-- <div class="user d-flex justify-content-end align-items-center my-2">
-
-              <h2 class="m-0 mx-3">User</h2>
-
-              <img src="../img/profile-user.png" alt="USER" width="40">
-
-            </div>
-
-            <div class="logOut d-flex justify-content-end align-items-center my-2">
-
-              <button class="btn-standard "><p class="m-0">Cerrar Sesión</p></button>
-
-            </div> --></div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div id="menu" class="menu col-3 menu-animations-outside">
-                        <button id="btn-drop-menu" class="drop-menu">
-                            <img src="../img/up-arrow-angle.png" alt="" width="50">
-                        </button>
-                        <div class="row text-start justify-content-center">
-                            <div class="col-12" style="height: 50%;">
-                                 <h2>Ventas</h2>
-                                <ul> <a href="ventasRealizadas.html"><li>Ventas Realizadas</li></a> <a href="registrar_venta.html"><li>Registrar Ventas</li></a>
-                                </ul>
-                            </div>
-                            <div class="col-12" style="height: 50%;">
-                                 <h2>Productos</h2>
-                                <ul> <a href="listarproductos.html"><li>Productos</li></a> <a href="productoRegistrar.html"><li>Registrar Productos</li></a>
-                                </ul>
-                            </div>
-                            <div class="col-12" style="height: 50%;">
-                                 <h2>Usuarios</h2>
-                                <ul> <a href="usuarios.html"><li>Lista de Usuarios</li></a>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-9">
-                        <div class="row justify-content-end">
-                            <div class="col-11 content d-flex flex-column justify-content-center"
-                            style="width: 97.6%;">
-                                <div class="row justify-content-center">
-                                    <div class="col-11 my-2">
-                                        <div class="row text-center">
-                                            <div class="col-5 border">
-                                                 <h5>Estadisticas Generales</h5>
-                                                <ol class="text-start">
-                                                    <ol>
-                                                        <li>Ventas totales realizadas: 4921</li>
-                                                        <li>Ventas realizadas hoy: 45</li>
-                                                        <li>Numero total de clientes: 1544</li>
-                                                        <li>Numero total de productos: 456</li>
-                                                    </ol>
-                                                </ol>
-                                            </div>
-                                            <div class="col-7 border">
-                                                <div class="row">
-                                                    <div class="col-4"></div>
-                                                </div>
-                                            </div>
-                                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="login-form d-flex-inline">
+                        <form action="dashboard.html">
+                            <fieldset>
+                                <div class="form-group mt-2">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" placeholder="Ingresar email"
+                                    id="email">
+                                </div>
+                                <div class="form-group mt-2">
+                                    <label for="pwd">Contraseña</label>
+                                    <input type="password" class="form-control" placeholder="Ingresar contraseña"
+                                    id="pwd">
+                                    <div class="align-self-end">
+                                        <button type="submit" class="btn btn-primary mt-4">Iniciar Sesión</button>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                                <fieldset>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="./js/all.js"></script>
     </body>
 
 </html>
