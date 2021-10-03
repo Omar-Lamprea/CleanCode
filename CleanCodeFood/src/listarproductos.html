@@ -1,25 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.css" integrity="sha256-CNwnGWPO03a1kOlAsGaH5g8P3dFaqFqqGFV/1nkX5OU=" crossorigin="anonymous"/>
 
-<<<<<<< Updated upstream
-<partial src="header.html"></partial>
-
-<div class="container-fluid">
-  <div class="container">
-    <div class="row">
-      <div class="menu col-3">
-        <div class="row justify-content-center">
-          <div class="col-11">
-            <h1>menu</h1>
-          </div>
-        </div>
-      </div>
-      <div class="col-9">
-        <div class="row justify-content-end">
-          <div class="col-11 content" style="width: 97.6%">
-            <div class="container-fluid">
-              <div class="container">
-                <table class="table table-hover table-responsive">
-=======
 <partial src="header.html" title="Lista de Productos"></partial>
 
 <div class="container-fluid">
@@ -34,7 +14,6 @@
               <div class="container">
                 <div class="card-body">
                   <table class="table table-hover table-responsive">
->>>>>>> Stashed changes
                   <thead>
                     <tr>
                       <th scope="col">Codigo</th>
@@ -52,7 +31,7 @@
                       <td>10000</td>
                       <td>
                         <a href="" class="btn btn-link"><span class="oi oi-eye" title="Ver Producto"></span></a>
-                        <a href="" class="btn btn-link"><span class="oi oi-pencil" title="Editar Producto"></span</a>                    
+                        <a href="" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modalModificar"><span class="oi oi-pencil" title="Editar Producto"></span</a>                    
                         <a href="" class="btn btn-link"><span class="oi oi-trash" title="Eliminar Producto"></span></a>
                       </td>
                     </tr>
@@ -103,32 +82,62 @@
                     </tr>
                    
                   </tbody>
-<<<<<<< Updated upstream
-                </table>
-
-=======
                   </table>
+                  <!-- Modal Modificar Producto-->
+                  <div class="modal fade" id="modalModificar" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="modalTitle">Modificar Producto</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          
+                            <div class="card-body">
+                            <form class="form" action="">
+                                <fieldset class="border p-3">
+                                    <div class="form-group mt-2">
+                                        <label for="IdProducto">ID Producto</label>
+                                        <input type="IdProducto" class="form-control" value="1" id="IdProducto" readonly>
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        <label for="Producto">Producto</label>
+                                        <input type="Producto" class="form-control" value="Hamburguesa" id="Producto">
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        <label for="Descripcion">Descripción</label>
+                                        <input type="Descripcion" class="form-control" value="Hamburguesa tres carnes" id="Descripcion">
+                                    </div>
+                                    <div class="form-group mt-2">
+                                        <label for="Precio">Precio</label>
+                                        <input type="Precio" class="form-control" value="10000" id="Precio">
+                                    </div>
+                                </fieldset>
+                            </form>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Salir</button>
+                          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Guardar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
->>>>>>> Stashed changes
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+               <!--  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                   <button type="button" class="btn btn-primary btn-sm" >Modificar Producto</button>
                   <button type="button" class="btn btn-danger btn-sm">Eliminar Producto</button>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
       </div>
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     </div>
   </div>
 </div>
 
 <partial src="footer.html"></partial>
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
